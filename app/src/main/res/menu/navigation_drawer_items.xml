@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_nav_home" android:title="Home"></item>
+    <item android:icon="@drawable/ic_movie" android:title="Từ điển">
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Từ điển" />
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Lịch sử" />
+        </menu>
+    </item>
+    <item android:title="Luyện Thi Toiec">
+        <menu>
+            <item
+                android:id="@+id/itemToeic250"
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Level 250-500" />
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Level 500-750" />
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Level 750-900" />
+        </menu>
+    </item>
+    <item android:title="Cộng Đồng">
+        <menu>
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Đặt câu hỏi" />
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Các câu hỏi" />
+        </menu>
+    </item>
+    <item android:title="Bảng xếp hạng">
+        <menu>
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Thành viên tiêu biểu" />
+            <item
+                android:icon="@drawable/ic_nav_logout"
+                android:title="...." />
+        </menu>
+    </item>
+
+</menu>
